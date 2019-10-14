@@ -250,15 +250,8 @@ func (c *redisClient) Request() error {
 	if c.options.load != "" {
 		return c.RequestBatch()
 	}
-	fmt.Println("new Request coming")
 	var args []interface{}
-	var flag = 300
-	if flag > 200 {
-		fmt.Println("##############################")
-		fmt.Println("##############################")
-		fmt.Println("##############################")
-		return nil
-	}
+
 	//Build the redis cmd and args
 	cmd := c.args[0]
 	for _, arg := range c.args[1:] {
