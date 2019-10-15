@@ -296,7 +296,7 @@ func (c *redisClient) Request() error {
 
 	if cmd == "importdata" {
 		cmd = "mset"
-		for j := 0; j < 50000; j++ {
+		for j := 50000; j < 500000; j++ {
 			var args2 []interface{}
 			start := j * 100
 			end := j * 100 + 100
