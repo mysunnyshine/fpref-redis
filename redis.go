@@ -316,6 +316,14 @@ func (c *redisClient) Request() error {
 		return nil
 	}
 
+	if cmd == "get_rand" {
+		cmd = "get"
+		rand.Seed(time.Now().UnixNano())
+		arg := strconv.Itoa(rand.Intn(50000000))
+		arg = prefixRedis + arg
+		args = append(args, arg)
+	}
+
 	if cmd == "mget_rand" {
 		cmd = "mget"
 		delta := mgetNum
