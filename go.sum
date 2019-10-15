@@ -1,0 +1,13 @@
+github.com/fperf/fperf v0.0.0-20190827082251-bba6f2d1209d h1:QWPRozzdAQkdEEbPtyxA05yc5JwwfbtDpRl2n9NjBQY=
+github.com/fperf/fperf v0.0.0-20190827082251-bba6f2d1209d/go.mod h1:vpDsUX1BKw3BmUpOFfoI0xPSV/tK1KzpA+8C3EOEkik=
+github.com/fperf/http v0.0.0-20190109124503-5efb2618876a/go.mod h1:BiQk1DWJomrfMevGF5tDgDB8sFstJnMp8v0tLpTSLSQ=
+github.com/fperf/mysql v0.0.0-20181226162218-9b61c59ae515/go.mod h1:fPdpLt+7ujPYyYc1B5AuAb6ONg/SmKG3b9kCIo/kI8s=
+github.com/fperf/redis v0.0.0-20190109124519-d973e3ee3326/go.mod h1:q2vslvF6HTC6GAdDrRMJ1O/UZUxnPE1nh7z0WwJCm2g=
+github.com/garyburd/redigo v1.6.0 h1:0VruCpn7yAIIu7pWVClQC8wxCJEcG3nyzpMSHKi1PQc=
+github.com/garyburd/redigo v1.6.0/go.mod h1:NR3MbYisc3/PwhQ00EMzDiPmrwpPxAn5GI05/YaO1SY=
+github.com/go-sql-driver/mysql v1.4.1/go.mod h1:zAC/RDZ24gD3HViQzih4MyKcchzm+sOG5ZlKdlhCg5w=
+golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
+golang.org/x/net v0.0.0-20190724013045-ca1201d0de80 h1:Ao/3l156eZf2AW5wK8a7/smtodRU+gha3+BeqJ69lRk=
+golang.org/x/net v0.0.0-20190724013045-ca1201d0de80/go.mod h1:z5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=
+golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
+golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
