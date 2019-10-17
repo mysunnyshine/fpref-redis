@@ -34,8 +34,8 @@ const randPlaceHolder = "__rand_int__"
 
 var seq func() string = seqCreater(0)
 var random func() string = randCreater(10000000000000000)
-var mgetNum int = 100
-var msetNum int =  100
+var mgetNum int = 200
+var msetNum int =  200
 var prefixRedis = "p_0"
 //A test case can have itself options witch would be passed by fperf
 type options struct {
@@ -296,7 +296,7 @@ func (c *redisClient) Request() error {
 
 	if cmd == "importdata" {
 		cmd = "mset"
-		for j := 50000; j < 500000; j++ {
+		for j := 500000; j < 500500; j++ {
 			var args2 []interface{}
 			start := j * 100
 			end := j * 100 + 100
